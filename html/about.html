@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Private Coffee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="nav-bar">
+        <div class="logo-image">
+            <img class="logo" src="./image/logo.png" alt="logo-image" width="50" height="50">
+            Private Coffee
+        </div>
+        <div class="item-link-container">
+            <a class="nav-link-item" href="index.html" onclick="alert ('Welcome To Home Page')">HOME</a>
+            <a class="nav-link-item active" href="about.html"onclick="alert ('Welcome To About Page')">ABOUT</a>
+            <a class="nav-link-item" href="contact.html"onclick="alert ('Welcome To Contact Page')">CONTACT</a>
+        </div>
+    </nav>
+
+    <!-- Main About Container -->
+    <main class="about-container">
+    <div class="about-header">
+        <h2 class="about-main-title">About Private Coffee</h2>
+        <p class="about-subtitle">ខាងក្រោម គឺជាទីតាំងហាងរបស់យើងខ្ញុំ</p>
+    </div>
+
+    <!-- 1. Shop View & Atmosphere Section -->
+    <section class="about-card view-section">
+        <div class="about-image-box">
+            <img src="./hot/668162011_983205630898068_8877783178405815174_n.jpg" alt="Private Coffee View" class="about-img">
+        </div>
+        <div class="about-text-content">
+            <h3 class="section-title">Our Atmosphere & View</h3>
+            <p>
+                នៅ Private Coffee យើងផ្តល់ជូននូវបរិយាកាសដ៏កក់ក្ដៅ និងមានការរចនាបែបសាមញ្ញតែទាន់សម័យ (minimalist) ដើម្បីធានាបាននូវផាសុកភាពខ្ពស់បំផុត។ មិនថាអ្នកត្រូវការទីកន្លែងស្ងប់ស្ងាត់សម្រាប់ការសិក្សា ការធ្វើការងារ ឬការជួបជុំលំហែអារម្មណ៍ជាមួយមិត្តភក្តិនោះទេ ហាងរបស់យើងមានផ្តល់ជូននូវពន្លឺដ៏កក់ក្ដៅ កៅអីអង្គុយប្រកបដោយផាសុកភាព អ៊ីនធឺណិត Wi-Fi ល្បឿនលឿន និងទេសភាពទីក្រុងដ៏ស្រស់ស្អាត។
+            </p>
+        </div>
+    </section>
+
+    <!-- 2. Location & Map Section -->
+    <section class="about-card location-section">
+        <div class="about-text-content full-width">
+            <h3 class="section-title">Our Location (ទីតាំងហាង)</h3>
+            <p>យើងមានទីតាំងស្ថិតនៅក្នុងតំបន់ដែលមានភាពងាយស្រួល និងងាយរកឃើញ ព្រមទាំងមានកន្លែងចតយានយន្តយ៉ាងទូលាយ។</p>
+
+            <div class="location-details">
+                <p>📍 <strong>Address:</strong> Lvea sor krorm, lvea sor commune ,Lvea em district,​ kandal province</p>
+                <p>📍 <strong>Address:</strong> ភុមិ ល្វាសរក្រោម, ឃុំ​ ល្វាស,ស្រុក ល្វាឯម ,ខេត្ត កណ្ដាល</p>
+                <p>⏰ <strong>Opening Hours:</strong> Monday – Sunday: 7:00 AM – 8:00 PM</p>
+                <p>⏰ <strong>ហាងចាប់ផ្ដើមបើក:</strong> ច័ន្ទ – អាទិត្យ: 7:00 AM – 8:00 PM</p>
+            </div>
+
+            <!-- Embedded Google Map -->
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11815.782346785367!2d105.19736033148071!3d11.45020721139608!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310be576a7b68363%3A0xcee6dd0ef93f3551!2sPrivate%20coffe!5e0!3m2!1sen!2sus!4v1791444357411!5m2!1sen!2sus"
+                    width="100%" 
+                    height="280" 
+                    style="border:0; border-radius: 8px;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>

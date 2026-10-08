@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Private Coffee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="nav-bar">
+        <div class="logo-image">
+            <img class="logo" src="./image/logo.png" alt="logo-image" width="50" height="50">
+            Private Coffee
+        </div>
+        <div class="item-link-container">
+            <a class="nav-link-item" href="index.html"onclick="alert ('Welcome To Home Page')">HOME</a>
+            <a class="nav-link-item" href="about.html" onclick="alert ('Welcome To About Page')">ABOUT</a>
+            <a class="nav-link-item active" href="contact.html"onclick="alert ('Welcome To Contact Page')">CONTACT</a>
+        </div>
+    </nav>
+
+    <!-- Main Contact Container -->
+    <main class="contact-container">
+        <div class="contact-header">
+            <h2 class="contact-title">Contact Us</h2>
+            <p class="contact-subtitle">មានចម្ងល់ ឬចង់កុម្ម៉ង់កាហ្វេ? ទាក់ទងមកកាន់យើងខ្ញុំឥឡូវនេះ!</p>
+        </div>
+
+        <div class="contact-wrapper">
+            <!-- Left Side: Contact Information -->
+            <div class="contact-info-card">
+                <h3>Get In Touch</h3>
+                <p>លោកអ្នកអាចទាក់ទងយើងខ្ញុំតាមរយៈព័ត៌មានខាងក្រោម ឬមកកាន់ហាងផ្ទាល់៖</p>
+
+                <div class="info-list">
+                    <div class="info-item">
+                        <span class="icon">📍</span>
+                        <div>
+                            <strong>Address / អាសយដ្ឋាន:</strong>
+                            <p>ភូមិ ល្វាសរក្រោម, ឃុំ ល្វាសរ, ស្រុក ល្វាឯម, ខេត្ត កណ្តាល</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="icon">📞</span>
+                        <div>
+                            <strong>Phone Number / លេខទូរស័ព្ទ:</strong>
+                            <p>0968535188</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="icon">💬</span>
+                        <div>
+                            <strong>Social Media / បណ្តាញសង្គម:</strong><br>
+                            <strong>Telegram :0968535188</strong><br
+                            <a href="https://web.facebook.com/PrivateCoffe13" target="_blank"><strong>Page : Private Coffee</strong></a>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <span class="icon">⏰</span>
+                        <div>
+                            <strong>Opening Hours / ម៉ោងបើក:</strong>
+                            <p>ច័ន្ទ – អាទិត្យ: 7:00 AM – 8:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side: Contact Form -->
+            <div class="contact-form-card">
+                <h3>Send Us a Message</h3>
+                <form action="#" method="POST" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name / ឈ្មោះរបស់អ្នក</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email or Phone / អ៊ីមែល ឬលេខទូរស័ព្ទ</label>
+                        <input type="text" id="email" name="email" placeholder="Enter your email or phone number" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject / ប្រធានបទ</label>
+                        <select name="subject" id="">គោលបំណង
+                            <option value="order"><b>Booking</b></option>
+                            <option value="order"><b>Order</b></option>
+                            <option value="order"><b>Be Member</b></option>
+
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message / សាររបស់អ្នក</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." ></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn" onclick="alert('សាររបស់អ្នកត្រូវបានផ្ញើរួចរាល់ហើយ!')">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Embedded Google Map -->
+        <div class="contact-map-section">
+            <h3 class="map-title">Find Us on Map</h3>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11815.782346785367!2d105.19736033148071!3d11.45020721139608!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310be576a7b68363%3A0xcee6dd0ef93f3551!2sPrivate%20coffe!5e0!3m2!1sen!2sus!4v1791444357411!5m2!1sen!2sus"
+                    width="100%" 
+                    height="350" 
+                    style="border:0; border-radius: 10px;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
